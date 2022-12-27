@@ -3,11 +3,11 @@ function ProjectCard(
         title,
         title2,
         desc,
-
+        link
     }
 ){
     return (
-        <a href="" class="group relative block h-96">
+<a href={`${link}`} class="group relative block h-96">
   <span class="absolute inset-0 border-2 border-dashed"></span>
 
   <div
