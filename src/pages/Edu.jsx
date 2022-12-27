@@ -1,7 +1,7 @@
 function Edu(){
     return(
 
-    <div className="grid grid-cols-2 mt-32">
+  <div className="grid grid-cols-2 mt-32 mb-32">
     <div>
       <article class="space-y-4 mt-5 text-xl w-full text-justify px-5">
           <div className="timeline">
@@ -37,10 +37,8 @@ function Edu(){
           <h2 class="font-bold text-8xl px-5 py-44 border-2 border-black text-right h-full">
             Education
           </h2>
-        </div>
-        
+        </div>  
       </div>
-      
     </div>
 
     )
