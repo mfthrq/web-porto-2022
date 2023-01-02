@@ -19,17 +19,17 @@ function Header(){
         ></span>
 
         <div class="p-8 sm:p-16 lg:p-24">
-          <h2 class="text-4xl font-bold">
+          <h2 class="text-2xl lg:text-4xl md:text-4xl font-bold">
             Mochammad Fadiil
           </h2>
-          <h2 class="text-4xl font-bold bg-pink-300 w-32">
+          <h2 class="text-2xl lg:text-4xl md:text-4xl font-bold bg-pink-300 w-24 lg:w-32 md:w-32">
             Thoriq
           </h2>
-          <p class="mt-4 text-2xl font-semibold">
+          <p class="mt-4 text-lg lg:text-2xl md:text-2xl font-semibold">
             Undergraduate Student.
           </p>
 
-          <Link to="knowmore" spy={true} smooth={true} offset={20} duration={800} className="group relative inline-block focus:outline-none focus:ring mt-5" href="#knowmore" >
+          <Link to="knowmore" spy={true} smooth={true} offset={-10} duration={800} className="group relative inline-block focus:outline-none focus:ring mt-5" href="#knowmore" >
             <span
                 class="absolute inset-0 translate-x-0 translate-y-0 bg-blue-300 transition-transform group-hover:translate-y-1.5 group-hover:translate-x-1.5"
             ></span>

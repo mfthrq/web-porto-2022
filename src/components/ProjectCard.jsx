@@ -3,15 +3,16 @@ function ProjectCard(
         title,
         title2,
         desc,
-        link
+        link,
+        borderCol
     }
 ){
     return (
 <a href={`${link}`} class="group relative block h-96">
-  <span class="absolute inset-0 border-2 border-dashed"></span>
+  <span class={`absolute inset-0 border-2 border-dashed ${borderCol} rounded-md`}></span>
 
   <div
-    class="relative flex h-full transform items-end border-2 bg-white transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2"
+    class={`relative flex h-full transform items-end border-4 ${borderCol} bg-white transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2 rounded-lg`}
   >
     <div
       class="px-8 pb-8 transition-opacity group-hover:absolute group-hover:opacity-0"
