@@ -2,7 +2,7 @@ function Edu(){
     return(
 
   <div className="grid grid-cols-2 mt-32 mb-32">
-    {/* Mobile View */}
+    {/* Title Education Mobile View */}
     <div className="lg:hidden col-span-2 lg:col-span-1">
         <div class="bg-green-300 w-full h-42 lg:h-60">
           <h2 class="font-bold text-5xl lg:text-8xl md:text-8xl px-5 py-5 border-t-2 border-b-2 lg:border-2 border-black h-42 lg:h-60 md:h-60 ">
@@ -12,7 +12,7 @@ function Edu(){
     </div>
 
     <div className="col-span-2 lg:col-span-1">
-      <article class="space-y-4 mt-5 text-xl w-full text-justify px-5">
+      <article class="space-y-4 mt-14 lg:mt-5 md:mt-5 text-xl w-full text-justify px-5">
           <div className="timeline">
             <div className="relative">
               <div className="dot" title="current education">
@@ -42,7 +42,7 @@ function Edu(){
       </article>
     </div>
 
-     {/* Web View */} 
+     {/* Title Education Web View */} 
     <div className="hidden lg:block col-span-2 lg:col-span-1">
         <div class="bg-green-300 w-full h-60 lg:h-full">
           <h2 class="font-bold text-8xl px-5 py-16 lg:py-44 border-t-2 border-b-2 lg:border-2 border-black text-right h-60 lg:h-full">

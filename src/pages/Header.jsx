@@ -19,13 +19,13 @@ function Header(){
         ></span>
 
         <div class="p-8 sm:p-16 lg:p-24">
-          <h2 class="text-2xl lg:text-4xl md:text-4xl font-bold">
+          <h2 class="text-3xl lg:text-4xl md:text-4xl font-bold">
             Mochammad Fadiil
           </h2>
-          <h2 class="text-2xl lg:text-4xl md:text-4xl font-bold bg-pink-300 w-24 lg:w-32 md:w-32">
+          <h2 class="text-3xl lg:text-4xl md:text-4xl font-bold bg-pink-300 w-24 lg:w-32 md:w-32">
             Thoriq
           </h2>
-          <p class="mt-4 text-lg lg:text-2xl md:text-2xl font-semibold">
+          <p class="mt-4 text-xl lg:text-2xl md:text-2xl font-semibold">
             Undergraduate Student.
           </p>
 
