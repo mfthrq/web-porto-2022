@@ -1,13 +1,12 @@
 import ProjectCard from "../components/ProjectCard";
-import PBSkill from "../components/PBSkill";
 import RTTools from "../components/RTTools";
+import Certif from "../components/Certif";
 
 function Portfolio(){
     return (
 <section className="bg-white">
   <div class="max-w-screen-xl px-4 py-24 mx-auto">
-
-    <header class="text-center ">
+    <header class="bg-red-300 w-64">
       <h2 class="text-5xl font-bold tracking-widest ">
         Projects
       </h2>
@@ -22,16 +21,25 @@ function Portfolio(){
 
         <ProjectCard title="Not Yet" title2="Not Yet" borderCol="border-blue-300" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " link="/"/>
     </ul>
-    <header class="text-center mt-24 border-t-2 border-black">
+    <header class="mt-24 bg-blue-300 w-96">
+      <h2 class="text-5xl font-bold mt-24 mt-10 tracking-widest" >
+        Certificates
+      </h2>
+    </header>
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 mt-10">
+      <div className="col-span-1">
+        <Certif namaCertif="Certificate of Competence Software Development | KKNI Level II of Software Engineering"   fotoCertif="certif-lsp.jpg" tahun="2022" bulanTanggal="Jun" deskCertif="Badan Nasional Sertifikasi Profesi (BNSP)"/>
+      </div>
+      <div className="col-span-1">
+        <Certif namaCertif="Lomba Desain Website Olimpiade Vokasi Indonesia (OLIVIA) 2022" tahun="2022" fotoCertif="certif-olivia2022.jpg" bulanTanggal="Oct" deskCertif="Yogyakarta State University"/>
+      </div>
+    </div>
+
+    <header class="bg-green-300 w-64">
       <h2 class="text-5xl font-bold mt-24 mt-10 tracking-widest">
         Skills
       </h2>
     </header>
-        <PBSkill skillName="Analytical Thinking" percentage="90%" colorBar="bg-red-300"/>
-        <PBSkill skillName="Team Work" percentage="80%" colorBar="bg-blue-300"/>
-        <PBSkill skillName="Time Management" percentage="85%" colorBar="bg-yellow-300"/>
-        <PBSkill skillName="Problem Solving" percentage="70%" colorBar="bg-green-300"/>
-        <PBSkill skillName="Communication" percentage="75%" colorBar="bg-purple-300"/>
     <RTTools/>
     
   </div>
